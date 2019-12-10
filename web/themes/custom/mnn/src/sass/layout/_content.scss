@@ -1,6 +1,6 @@
 @import "../base/_variables";
 
-.main__layout__content__and__right__sidebar {
+.main__content {
   display: flex;
   flex-direction: row;
 
@@ -9,7 +9,7 @@
     margin: $space-small;
   }
 
-  .main__right_sidebar__section {
+  .main__rightsidebar {
     flex: 1 0 20%;
     margin: $space-small;
   }
