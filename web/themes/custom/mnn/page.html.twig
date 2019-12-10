@@ -43,40 +43,51 @@
  */
 #}
 <header role="banner" class="header">
-	<div class="header__branding__logo">{{ page.barnding_logo }}</div>
-	<div class="header__branding__nav">{{ page.branding_navigation}}</div>
-	<div class="header__branding__right__nav">{{ page.branding_right_navigation}}</div>
+	<nav role="navigation">
+		<div class="header__logo" >{{ page.barnding_logo }}</div>
+		<div class="header__nav" >{{ page.branding_navigation}}</div>
+		<div class="header__nav__right">{{ page.branding_right_navigation}}</div>
+	</nav>
 </header>
 
 <main role="main" class="main">
-	<div class="main__layout__featured">
+	<div class="main__featured">
 		{{ page.featured }}
 	</div>
-	<div class="main__layout__content__and__right__sidebar">
-		<div class="main__content__section">{{ page.content }}</div>
-		<div class="main__right_sidebar__section">{{ page.right_sidebar}}</div>
+	<div class="main__content">
+		<div class="main__content">{{ page.content }}</div>
+		<aside class="main__rightsidebar" role="complimentary">{{ page.right_sidebar}}</aside>
 	</div>
 </main>
 
 <footer role="contentinfo" class="footer">
-	<div class="footer__bottom__container">
-		<div class="footer__bottom__first" role="complementary">
+	<div class="footer__top__container">
+		{% if page.footer_bottom_1 %}
+		<div class="footer__top__first" role="complementary">
 			{{ page.footer_bottom_1 }}
 		</div>
-		<div class="footer__bottom__second" role="complementary">
+		{% endif %}
+		{% if page.footer_bottom_2 %}
+		<div class="footer__top__second" role="complementary">
 			{{ page.footer_bottom_2 }}
 		</div>
-		<div class="footer__bottom__third" role="complementary">
+		{% endif %}
+		{% if page.footer_bottom_3 %}
+		<div class="footer__top__third" role="complementary">
 			{{ page.footer_bottom_3 }}
 		</div>
-		<div class="footer__bottom__fourth" role="complementary">
+		{% endif %}
+		{% if page.footer_bottom_4 %}
+		<div class="footer__top__fourth" role="complementary">
 			{{ page.footer_bottom_4 }}
 		</div>
+		{% endif %}
 	</div>
-	<div class="footer__bottom__social">
-		<div class="footer__bottom__social__link">
+	<div class="footer__bottom__container">
+		{% if page.footer_bottom %}
+		<div class="footer__bottom">
 			{{page.footer_bottom}}
 		</div>
-		<div class="footer__copyright"></div>
+		{% endif %}
 	</div>
 </footer>
