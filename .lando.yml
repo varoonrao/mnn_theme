@@ -1,0 +1,4 @@
+name: mnn_mnn
+recipe: drupal8
+config:
+  webroot: web

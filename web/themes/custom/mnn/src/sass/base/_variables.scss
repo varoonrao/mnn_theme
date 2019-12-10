@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo|Open+Sans&display=swap');
+
+$--color-primary:#389BD3;
+$--color-gradient:linear-gradient(-45deg, #389bd3 0%, #2b7ba7 100%);
+$--color-black:#000;
+$--color-white:#fff;
+$--color-green:#3C9165;
+$--color-gray:#8d8d8d;
+$--color-shadow:#23527c;
+
+// space
+
+$max-width:1010px;
+$space-medium:10px;
+$space-small:5px;
+
+// font
+
+$font-small:14px;
+$font-medium:16px;
+$font-large:18px;
+$font-arimo: 'Arimo',
+sans-serif;
+$font-open-sans: 'Open Sans',
+sans-serif;
+$font-arial: 'Arial';
+$text-shadow: 1px 1px 0 rgba(0, 0, 0, .2);
+
+// trasistion
+
+$trasnsition-slow: 0.2s ease-in-out;

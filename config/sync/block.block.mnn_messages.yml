@@ -1,0 +1,22 @@
+uuid: 6004eea6-eb02-4538-8fae-8514f8bcd82a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mnn
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: mnn_messages
+theme: mnn
+region: footer_bottom
+weight: -2
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

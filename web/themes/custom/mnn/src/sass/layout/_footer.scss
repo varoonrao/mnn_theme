@@ -1,0 +1,24 @@
+@import "../base/variables";
+
+.footer {
+  background-color: $--color-primary;
+
+  .footer__bottom__container {
+    display: flex;
+    max-width: $max-width;
+    margin: auto;
+
+    .footer__bottom__first,
+    .footer__bottom__second,
+    .footer__bottom__third,
+    .footer__bottom__fourth {
+      flex: 1 0 20%;
+      margin: $space-small;
+    }
+
+    .footer__bottom__social {
+      max-width: $max-width;
+      margin: auto;
+    }
+  }
+}

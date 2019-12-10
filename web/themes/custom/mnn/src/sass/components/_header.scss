@@ -1,0 +1,23 @@
+@import "../base/variables.scss";
+
+.header {
+  display: flex;
+  flex-direction: row;
+  background: $--color-gradient;
+
+
+  .header__branding__logo {
+    flex: 0.5 0 0%;
+    margin: $space-small;
+  }
+
+  .header__branding__nav {
+    flex: 1 0 50%;
+    margin: $space-small;
+  }
+
+  .header__branding__right__nav {
+    flex: 1 0 0;
+    margin: $space-small;
+  }
+}

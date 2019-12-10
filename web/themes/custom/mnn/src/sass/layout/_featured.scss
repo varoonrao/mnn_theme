@@ -1,0 +1,10 @@
+@import "../base/_variables";
+
+.main {
+  max-width: $max-width;
+  margin: auto;
+
+  .main__layout__featured {
+    margin: $space-small;
+  }
+}

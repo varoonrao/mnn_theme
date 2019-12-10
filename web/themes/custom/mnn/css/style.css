@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css?family=Arimo|Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Arimo|Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Arimo|Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Arimo|Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Arimo|Open+Sans&display=swap");
+.header {
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(-45deg, #389bd3 0%, #2b7ba7 100%); }
+  .header .header__branding__logo {
+    flex: 0.5 0 0%;
+    margin: 5px; }
+  .header .header__branding__nav {
+    flex: 1 0 50%;
+    margin: 5px; }
+  .header .header__branding__right__nav {
+    flex: 1 0 0;
+    margin: 5px; }
+
+/**
+ * Reset css
+ */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  border: 0;
+  font: inherit;
+  font-size: 100%; }
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse; }
+
+.main__layout__content__and__right__sidebar {
+  display: flex;
+  flex-direction: row; }
+  .main__layout__content__and__right__sidebar .main__content__section {
+    flex: 1 0 60%;
+    margin: 5px; }
+  .main__layout__content__and__right__sidebar .main__right_sidebar__section {
+    flex: 1 0 20%;
+    margin: 5px; }
+
+.main {
+  max-width: 1010px;
+  margin: auto; }
+  .main .main__layout__featured {
+    margin: 5px; }
+
+.footer {
+  background-color: #389BD3; }
+  .footer .footer__bottom__container {
+    display: flex;
+    max-width: 1010px;
+    margin: auto; }
+    .footer .footer__bottom__container .footer__bottom__first,
+    .footer .footer__bottom__container .footer__bottom__second,
+    .footer .footer__bottom__container .footer__bottom__third,
+    .footer .footer__bottom__container .footer__bottom__fourth {
+      flex: 1 0 20%;
+      margin: 5px; }
+    .footer .footer__bottom__container .footer__bottom__social {
+      max-width: 1010px;
+      margin: auto; }
